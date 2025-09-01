@@ -1,36 +1,170 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Professional Resume Website
+
+A clean, modern, single-page resume website built with Next.js and Tailwind CSS. This website showcases your professional experience, skills, projects, and contact information in an elegant, mobile-friendly design.
+
+## Features
+
+- **Single-page design** with smooth scrolling navigation
+- **Responsive layout** that works on all devices
+- **Professional sections**: Header, Skills, Experience, Projects, Education & Certifications, Contact
+- **Downloadable resume** (PDF format)
+- **Social media links** (LinkedIn, GitHub)
+- **Accessible design** with proper ARIA labels and keyboard navigation
+- **Modern UI** with clean typography and subtle animations
+
+## Sections
+
+1. **Header**: Name, title, brief summary, and resume download button
+2. **Skills**: Organized by category (Frontend, Backend, Tools & Others)
+3. **Experience**: Job history with impact-focused bullet points
+4. **Projects**: Portfolio highlights with technology tags
+5. **Education & Certifications**: Academic background and professional certifications
+6. **Contact**: Email and social media links
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <your-repo-url>
+cd portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Customization
 
-To learn more about Next.js, take a look at the following resources:
+### Personal Information
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Update the following in `src/app/page.tsx`:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Name and Title**: Replace "Your Name" and "Full Stack Developer"
+2. **Summary**: Update the professional summary in the header section
+3. **Contact Information**: 
+   - Email: Replace `your.email@example.com`
+   - LinkedIn: Replace `yourusername` in the LinkedIn URL
+   - GitHub: Replace `yourusername` in the GitHub URL
 
-## Deploy on Vercel
+### Skills
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Update the skills in the Skills section. The current structure includes:
+- Frontend technologies
+- Backend technologies  
+- Tools and other skills
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Experience
+
+Replace the sample experience entries with your actual work history:
+- Job titles
+- Company names
+- Dates
+- Impact-focused bullet points (1-2 per role)
+
+### Projects
+
+Update the projects section with your actual portfolio:
+- Project names and descriptions
+- Technology tags
+- Links to live demos or case studies
+
+### Education & Certifications
+
+Replace with your actual:
+- Degree and institution
+- Graduation year
+- Professional certifications
+
+### Resume PDF
+
+1. Replace `public/resume.pdf` with your actual resume file
+2. Ensure the file is named `resume.pdf` for the download link to work
+
+### Styling
+
+The website uses Tailwind CSS for styling. You can customize:
+- Colors: Update the blue color scheme in the CSS classes
+- Typography: Modify font sizes and weights
+- Layout: Adjust spacing and grid layouts
+- Backgrounds: Change section background colors
+
+### Metadata
+
+Update the metadata in `src/app/layout.tsx`:
+- Page title
+- Description
+- Keywords
+- Author name
+
+## Deployment
+
+### Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy automatically
+
+### Other Platforms
+
+The website can be deployed to any platform that supports Next.js:
+- Netlify
+- AWS Amplify
+- DigitalOcean App Platform
+- Railway
+
+## Custom Domain
+
+After deployment, you can add a custom domain:
+1. Purchase a domain (e.g., yourname.com)
+2. Configure DNS settings to point to your hosting platform
+3. Update the domain in your hosting platform settings
+
+## Accessibility
+
+The website includes:
+- Semantic HTML structure
+- ARIA labels for interactive elements
+- Keyboard navigation support
+- Proper color contrast
+- Focus indicators
+
+## Performance
+
+- Optimized images and assets
+- Minimal external dependencies
+- Fast loading times
+- Mobile-optimized
+
+## Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Contributing
+
+Feel free to submit issues and enhancement requests!
+
+---
+
+**Note**: Remember to replace all placeholder content with your actual information before deploying your website.
