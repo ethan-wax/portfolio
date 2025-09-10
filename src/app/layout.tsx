@@ -12,10 +12,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Your Name - Full Stack Developer",
-  description: "Professional resume and portfolio website showcasing skills, experience, and projects in web development.",
-  keywords: "full stack developer, web development, React, Node.js, TypeScript, portfolio",
-  author: "Your Name",
+  title: "Ethan Waxman - Software Engineer",
+  description: "Professional resume and portfolio website showcasing skills, experience, and projects in software engineering.",
+  keywords: "software engineer, software development, software engineering, portfolio",
+  author: "Ethan Waxman",
   viewport: "width=device-width, initial-scale=1",
 };
 
