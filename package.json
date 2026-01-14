@@ -11,12 +11,7 @@
   "dependencies": {
     "next": "15.3.4",
     "react": "^19.0.0",
-<<<<<<< HEAD
-    "react-dom": "^19.0.0",
-    "next": "15.3.8"
-=======
     "react-dom": "^19.0.0"
->>>>>>> 811d197 (Clean up website)
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
