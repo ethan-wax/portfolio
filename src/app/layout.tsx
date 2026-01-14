@@ -16,7 +16,11 @@ export const metadata = {
   description: "Professional resume and portfolio website showcasing skills, experience, and projects in software engineering.",
   keywords: "software engineer, software development, software engineering, portfolio",
   author: "Ethan Waxman",
-  viewport: "width=device-width, initial-scale=1",
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
