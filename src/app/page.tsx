@@ -245,6 +245,7 @@ export default function Home() {
                   <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">PyTorch</span>
                   <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Reinforcement Learning</span>
                 </div>
+                <a href="https://github.com/ethan-wax/chess_engine" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-medium">View on GitHub →</a>
               </div>
             </div>
           </div>
