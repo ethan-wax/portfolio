@@ -79,11 +79,11 @@ export default function Home() {
               Ethan Waxman
             </h1>
             <h2 className="text-2xl md:text-3xl text-blue-600 font-semibold mb-6">
-              Software Developer
+              Machine Learning Engineer
             </h2>
             <div className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed space-y-4">
               <p>
-                I'm a software developer with a passion for exploring the intersections of technology and science. 
+                I'm a machine learning engineer with a passion for exploring the intersections of technology and science.
                 With degrees in both computer science and applied physics, I bring a multidisciplinary approach to problem-solving.
               </p>
               <p>
@@ -94,7 +94,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="/CS Resume Website.pdf"
+              href="/Ethan_Waxman_Resume.pdf"
               download
               className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-colors"
             >
@@ -131,12 +131,12 @@ export default function Home() {
               </ul>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Backend & Tools</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Data & MLOps</h3>
               <ul className="space-y-2 text-gray-700">
-                <li>• FastAPI, Redis</li>
-                <li>• Functional Programming (OCaml)</li>
-                <li>• AWS Cloud Practitioner</li>
-                <li>• Neo4j Graph Data Science</li>
+                <li>• Apache Airflow, PySpark, Databricks</li>
+                <li>• AWS SageMaker, Docker, Terraform</li>
+                <li>• Jenkins CI/CD</li>
+                <li>• FastAPI, Redis, Neo4j</li>
               </ul>
             </div>
           </div>
@@ -151,15 +151,18 @@ export default function Home() {
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900">Software Developer</h3>
+                  <h3 className="text-xl font-semibold text-gray-900">Machine Learning Engineer</h3>
                   <p className="text-blue-600 font-medium">FI Consulting - Arlington, VA</p>
                 </div>
                 <span className="text-gray-600 text-sm md:text-base">Aug 2024 - Present</span>
               </div>
               <ul className="space-y-2 text-gray-700">
-                <li>• Developed and deployed a machine learning entity resolution service on AWS Sagemaker, removing over 10,000 duplicated records for a major financial institution</li>
-                <li>• Built a customer analytics dashboard with PySpark and Databricks, enabling executives to investigate the behavior of over 15 million customers simultaneously</li>
-                <li>• Implemented 3 graph neural network architectures for financial product recommendations, overcoming data and scaling issues to train on 1M+ users in &lt;5 min; proposed a new solution for personalized marketing at a large retail bank</li>
+                <li>• Led design of 3 Graph Neural Network (GNN) architectures for recommendation and churn prediction; achieved 82% prediction accuracy identifying $100M+ in at-risk revenue; collaborated with clients to iterate and orient the project.</li>
+                <li>• Architected and optimized GNN training pipelines using PyTorch to process 1M+ nodes/users in under 5 minutes, overcoming high-dimensional data scaling bottlenecks.</li>
+                <li>• Owned an ML entity resolution service on AWS SageMaker from development to deployment, utilizing fuzzy matching and probabilistic record linkage to remove 10,000+ duplicates.</li>
+                <li>• Engineered high-throughput ETL pipelines using Apache Airflow to migrate multiple terabytes of data into MongoDB for downstream model consumption.</li>
+                <li>• Developed an executive analytics dashboard using PySpark and Databricks, enabling real-time distributed querying of 15M+ customer records.</li>
+                <li>• Deployed a Jenkins pipeline to automate CI/CD; dropped build and deployment times by 75%.</li>
               </ul>
             </div>
 
@@ -233,16 +236,15 @@ export default function Home() {
 
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm border border-gray-200">
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">Noise Reduction Project</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Iterative Chess Engine</h3>
                 <p className="text-gray-700 mb-4">
-                  Used a Raspberry Pi to record audio from a microphone and then apply a combination of digital signal processing techniques to reduce noise in the audio recordings.
+                  Developed 4 engine iterations, evolving from Minimax with Alpha-Beta pruning and MCTS to a hybrid deep learning evaluation model. Trained a Policy-Value Neural Network in PyTorch using 100,000 Grandmaster positions (100 epochs), reinforced through thousands of self-play iterations.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Raspberry Pi</span>
-                  <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">C++</span>
-                  <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Digital Signal Processing</span>
+                  <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Python</span>
+                  <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">PyTorch</span>
+                  <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Reinforcement Learning</span>
                 </div>
-                <a href="/Noise_Reduction_System.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-medium">Read more →</a>
               </div>
             </div>
           </div>
@@ -266,6 +268,10 @@ export default function Home() {
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Certifications</h3>
               <div className="space-y-3">
+                <div>
+                  <p className="font-medium text-gray-900">AWS Solutions Architect — Associate</p>
+                  <p className="text-gray-600 text-sm">Amazon Web Services</p>
+                </div>
                 <div>
                   <p className="font-medium text-gray-900">AWS Cloud Practitioner</p>
                   <p className="text-gray-600 text-sm">Amazon Web Services</p>
@@ -321,7 +327,7 @@ export default function Home() {
       <footer className="bg-gray-900 text-white py-8">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-400">
-            © 2026 Ethan Waxman. Built with Next.js and Tailwind CSS by Cursor.
+            © 2026 Ethan Waxman. Built with Next.js and Tailwind CSS.
           </p>
         </div>
       </footer>
