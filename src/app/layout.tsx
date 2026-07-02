@@ -12,9 +12,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Ethan Waxman - Software Engineer",
-  description: "Professional resume and portfolio website showcasing skills, experience, and projects in software engineering.",
-  keywords: "software engineer, software development, software engineering, portfolio",
+  title: "Ethan Waxman - Machine Learning Engineer",
+  description: "Professional resume and portfolio website showcasing skills, experience, and projects in machine learning engineering.",
+  keywords: "machine learning engineer, machine learning, ML, software engineering, portfolio",
   author: "Ethan Waxman",
 };
 
